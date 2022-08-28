@@ -26,9 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.idk.init.IdkModTabs;
 import net.mcreator.idk.init.IdkModItems;
-import net.mcreator.idk.init.IdkModEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -44,11 +42,10 @@ public class IdkMod {
 	private static int messageID = 0;
 
 	public IdkMod() {
-		IdkModTabs.load();
+
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		IdkModItems.REGISTRY.register(bus);
-		IdkModEntities.REGISTRY.register(bus);
 
 	}
 

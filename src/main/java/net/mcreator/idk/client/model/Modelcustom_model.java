@@ -32,16 +32,13 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -8.0F, -2.0F, 2.0F, 2.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-2.0F, -9.0F, -7.0F, 4.0F, 3.0F, 5.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-1.0F, -9.0F, 0.0F, 2.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(0.0F, -6.0F, -1.0F, 1.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(0.0F, -6.0F, 3.0F, 1.0F, 6.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-1.0F, -7.0F, -1.0F, 1.0F, 7.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-1.0F, -7.0F, 3.0F, 1.0F, 7.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
-						.addBox(-1.0F, -9.0F, -7.0F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(0, 9).addBox(-9.0F, -3.0F, -3.0F, 7.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(-2.0F, -3.0F, -3.0F, 7.0F, 3.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(0, 18)
+						.addBox(-4.0F, -13.0F, -3.0F, 4.0F, 11.0F, 5.0F, new CubeDeformation(0.0F)).texOffs(18, 18)
+						.addBox(-3.0F, -15.0F, -3.0F, 3.0F, 7.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(0, 0)
+						.addBox(4.0F, -9.0F, 1.0F, 2.0F, 4.0F, 0.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 24.0F, 0.0F));
-		return LayerDefinition.create(meshdefinition, 16, 16);
+		return LayerDefinition.create(meshdefinition, 64, 64);
 	}
 
 	@Override

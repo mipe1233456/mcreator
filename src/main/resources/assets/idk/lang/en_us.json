@@ -1,10 +1,6 @@
 {
-  "item.idk.dftergre_spawn_egg": "Dftergre Spawn Egg",
-  "itemGroup.tabidk": "Idk",
   "item.idk.infected_armor_chestplate": "Infected armor Body",
   "item.idk.infected_armor_boots": "Infected armor Boots",
-  "item.idk.i": "I",
   "item.idk.infected_armor_helmet": "Infected armor Helmet",
-  "item.idk.infected_armor_leggings": "Infected armor Leggings",
-  "entity.idk.dftergre": "Dftergre"
+  "item.idk.infected_armor_leggings": "Infected armor Leggings"
 }
