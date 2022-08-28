@@ -1,0 +1,78 @@
+{
+  "mod_elements": [
+    {
+      "name": "I",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i"
+    },
+    {
+      "name": "Idk",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "idk"
+    },
+    {
+      "name": "Infectedarmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infected_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Dftergre",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dftergre"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.idk.dftergre_spawn_egg": "Dftergre Spawn Egg",
+      "itemGroup.tabidk": "Idk",
+      "item.idk.infected_armor_chestplate": "Infected armor Body",
+      "item.idk.infected_armor_boots": "Infected armor Boots",
+      "item.idk.i": "I",
+      "item.idk.infected_armor_helmet": "Infected armor Helmet",
+      "item.idk.infected_armor_leggings": "Infected armor Leggings",
+      "entity.idk.dftergre": "Dftergre"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "idk",
+    "modName": "idk",
+    "version": "1.0.0",
+    "author": "Angelo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.idk",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
